@@ -24,7 +24,7 @@ local Tabs = {
 
 Tabs.Main:AddButton({
     Title = "Join Discord",
-    Description = "Copies Discord link to clipboard",
+    Description = "Copies Discord link to clipboard Join Discord For The Rivals Script.",
     Callback = function()
         setclipboard("https://discord.com/invite/sFhyP4nJw9")
         Fluent:Notify({
